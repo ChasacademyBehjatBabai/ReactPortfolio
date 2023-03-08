@@ -1,0 +1,32 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10em;
+  padding-right: 10em;
+}
+
+.footerContainer p {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.github{
+    margin-right: 1em;
+  }
+  
+  .linkedin {
+    margin-left: 1em;
+  }
+
+  #findMeAt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
