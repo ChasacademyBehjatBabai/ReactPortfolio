@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Navbar from './Navbar';
+import Card from './components/Card';
+import Navbar from './components/Navbar/Navbar';
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from "react-router-dom";
-import logo from './assets/react.svg';
-import Footer from './Footer';
+import Footer from './components/Footer/Footer';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+
+
 
 const LogoContainer = styled.div`
-max-width: 2rem;
+max-width: 4rem;
+max-height: 4rem;
+margin-top: 15px;
 grid-area: logo; 
 display: flex;
 margin-left: 35px;
@@ -18,10 +24,19 @@ margin-left: 35px;
 
 const StyleImg = styled.img`
 width: 100%;
+
 `;
 
 const MainContainer = styled.div`
 grid-area: main;
+margin-left: 20px;
+margin-right: 20px;
+
+border-top-style: solid;
+display: flex;
+justify-content: center;
+
+
 `;
 
 const GridContainer = styled.div`
@@ -38,6 +53,7 @@ const GridContainer = styled.div`
 `;
 
 
+
 function App() {
 
   return (
@@ -45,21 +61,25 @@ function App() {
       <GridContainer>
         <Navbar />
         <LogoContainer>
-          <StyleImg src={logo} alt="Logo" />
-        </LogoContainer>
 
+        </LogoContainer>
         <MainContainer>
+          
           <Switch>
+            <Route path="/home">
+              <Home />
+              <Card />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
             <Route path="/about">
               <p>About</p>
             </Route>
             <Route path="/portfolio">
               <p>Portfolio</p>
             </Route>
-            <Route path="/">
-            </Route>
           </Switch>
-          <h1>Bellas Witherstorm</h1>
         </MainContainer>
         <Footer />
       </GridContainer>

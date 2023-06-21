@@ -5,13 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background-image: url("/Users/bella/Documents/projects/noob/src/assets/Oceanpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 a {
@@ -21,11 +25,15 @@ a {
 }
 
 a:hover {
-  color: #535bf2;
+  color: turquoise;
+  border-bottom: #ffffff;
+  border-bottom-style:solid;
 }
 
 body {
-  margin: 0;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 2em;
   display: flex;
   place-items: center;
   min-width: 320px;
