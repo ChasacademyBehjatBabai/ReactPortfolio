@@ -1,6 +1,6 @@
 import React from 'react'
 import StyledImg from '/src/assets/Oceanpic.jpg';
-
+import HomePic from '/src/assets/HomeImg.png'
 import styled from 'styled-components';
 
 export const StyleImg = styled.img`
@@ -169,7 +169,7 @@ function Home() {
                 "Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep." — Scott Adams
             </TextContainer>
             <Styledfotocontainer>
-                <HomeImage src="/src/assets/HomeImg.png" alt="Home Image" />
+                <HomeImage src={HomePic} alt="Home Image" />
 
             </Styledfotocontainer>
         </div>
