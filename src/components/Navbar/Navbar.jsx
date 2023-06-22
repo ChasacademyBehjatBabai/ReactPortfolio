@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import BBInitials from '/Users/bella/Documents/projects/noob/src/assets/bb.svg';
+import BBInitials from '/Users/bella/Documents/projects/noob/src/assets/BBInit.png';
 
 import {
     Link
