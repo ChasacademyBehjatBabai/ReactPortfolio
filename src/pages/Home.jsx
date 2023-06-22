@@ -129,6 +129,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 0%;
+color: black;
 
 background: #FEE1C5;
 border: 1px solid rgba(0, 0, 0, 0.25);
