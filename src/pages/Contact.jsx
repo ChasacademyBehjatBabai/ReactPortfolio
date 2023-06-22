@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactPic from '/Users/bella/Documents/projects/noob/src/assets/ContactPic.jpg';
+import ContactPic from '/src/assets/ContactPic.jpg';
 import styled from 'styled-components';
 
 export const StyledContactPic = styled.img`

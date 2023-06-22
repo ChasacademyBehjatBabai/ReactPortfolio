@@ -1,5 +1,5 @@
 import React from 'react'
-import StyledImg from '/Users/bella/Documents/projects/noob/src/assets/Oceanpic.jpg';
+import StyledImg from '/src/assets/Oceanpic.jpg';
 
 import styled from 'styled-components';
 

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import github from '/Users/bella/Documents/projects/noob/src/assets/GitHub-Mark.png';
-import figma from '/Users/bella/Documents/projects/noob/src/assets/figma.png';
-import linkedin from '/Users/bella/Documents/projects/noob/src/assets/linkedin.png';
+import github from '/src/assets/GitHub-Mark.png';
+import figma from '/src/assets/figma.png';
+import linkedin from '/src/assets/linkedin.png';
 import {
   Link
 } from "react-router-dom";
