@@ -169,7 +169,7 @@ function Home() {
                 "Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep." — Scott Adams
             </TextContainer>
             <Styledfotocontainer>
-                <HomeImage src="src/assets/HomeImg.png" alt="Home Image" />
+                <HomeImage src="/src/assets/HomeImg.png" alt="Home Image" />
 
             </Styledfotocontainer>
         </div>
